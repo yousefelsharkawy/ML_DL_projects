@@ -1,0 +1,13 @@
+round_epochs,loss,categorical_accuracy,val_loss,val_categorical_accuracy,lr,first_neuron,batch_size,epochs,dropout,weight_regularizer,optimizer,losses,activation,last_activation
+2,1.9040206670761108,0.4540238082408905,1.7557052373886108,0.5630555748939514,0.0001,32,1024,2,0,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,tanh,softmax
+2,2.036066770553589,0.3442142903804779,1.909348487854004,0.43255555629730225,0.0001,64,2048,2,0,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,tanh,softmax
+2,0.656131386756897,0.8083809614181519,0.43874549865722656,0.8806111216545105,0.001,128,2048,2,0.4,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,relu,softmax
+2,2.391495943069458,0.10888095200061798,2.319439649581909,0.12950000166893005,0.001,128,1024,2,0.4,None,<class 'keras.optimizers.optimizer_v2.gradient_descent.SGD'>,categorical_crossentropy,relu,softmax
+2,0.484089195728302,0.8605238199234009,0.3383272588253021,0.907444417476654,0.001,128,1024,2,0.4,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,relu,softmax
+2,2.047621726989746,0.27088093757629395,1.868815302848816,0.4198888838291168,0.0001,64,2048,2,0.4,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,tanh,softmax
+2,2.5775678157806396,0.09247618913650513,2.5061280727386475,0.09655555337667465,0.0001,128,1024,2,0.4,None,<class 'keras.optimizers.optimizer_v2.gradient_descent.SGD'>,categorical_crossentropy,relu,softmax
+2,2.305136203765869,0.11445238441228867,2.2678475379943848,0.1558888852596283,0.0001,8,2048,2,0.7,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,relu,softmax
+2,1.4136552810668945,0.6904761791229248,1.286419153213501,0.7253888845443726,0.001,8,1024,2,0,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,tanh,softmax
+2,2.3423426151275635,0.09671428799629211,2.316707134246826,0.1054999977350235,0.001,8,2048,2,0.4,None,<class 'keras.optimizers.optimizer_v2.gradient_descent.SGD'>,categorical_crossentropy,relu,softmax
+2,1.5794856548309326,0.6606666445732117,1.354221224784851,0.7325000166893005,0.0001,128,1024,2,0,None,<class 'keras.optimizers.optimizer_v2.adam.Adam'>,categorical_crossentropy,relu,softmax
+2,2.2267110347747803,0.17114286124706268,2.190307378768921,0.19272221624851227,0.001,64,1024,2,0,None,<class 'keras.optimizers.optimizer_v2.gradient_descent.SGD'>,categorical_crossentropy,tanh,softmax
