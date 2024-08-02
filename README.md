@@ -8,3 +8,10 @@
 
 - **Technologies**: YOLOV8, OpenCV, Pytesseract, SORT
 
+## [Image Captioning](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/Image_captioning)
+
+![Image Captioning Demo](Image_captioning/assets/main_1.jpg)
+
+- **Description**: This project Implements the [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044) paper. The Project first preprocess the Flickr8k/Flickr30k datasets and constructs a vocabulary. Then, it trains a CNN (ResNet101) and an LSTM with an attention mechanism to generate captions for images.
+
+- **Technologies**: Pytorch (ResNet101, LSTM, Attention Mechanism), BLEU Score, Flickr8k/Flickr30k Datasets, Spacy (Tokenizer)
