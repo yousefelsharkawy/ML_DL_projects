@@ -1,5 +1,22 @@
 # Machine Learning and Deep Learning Projects
 
+## [GPT2 From Scratch (124M Version)](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/GPT2_124M)
+
+![main_image](GPT2_124M/assets/main_image.png)
+*generated text by the model for the prompt: "The human mind is unique"*
+
+- **Description**: This Project is an implementation of the GPT2 model from scratch using PyTorch (the 124M version). It is based on OpenAI's ChatGPT-2 paper [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf), ChatGPT-3 paper [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf), and Andrej Karpathy's wonderful series [Neural Networks Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ). 
+
+    The model is trained on 10 Billion tokens of [FineWeb EDU](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) dataset and the code is optimized for both Ampere GPUs and older GPUs using techniques like TensorFloat32, Torch Compile, Flash Attention, Automatic Mixed Precision, Fused AdamW, and Distributed Data Parallel on multiple GPUs. The repo also implements the Byte Pair Encoding tokenizer (which is the tokenizer used in OpenAI's GPT models) in case you want to construct your own vocabulary. 
+
+    The resulting model exceeds the performance of the corresponding original GPT2 model published by OpenAI on The HellaSwag dataset with a score of 30.67% compared to 29.55% for the original GPT2 model.
+
+    ![hella_swag](GPT2_124M/assets/hella_plot.png)
+
+    The code can be easily adjusted to train larger versions of GPT2 or even GPT3 models if you have the patience and resources to do so.
+
+- **Technologies**: PyTorch (GPT2 Transformer, Automatic mixed precision, Fused AdamW, Flash Attention, Torch Compile, TensorFloat32, Distributed Data Parallel), Tiktoken (OpenAI's tokenizer), HuggingFace (FineWeb EDU Dataset), HellaSwag Dataset (for evaluation)
+
 ## [License Plates Reader](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/License_plate_reader)
 
 ![License Plates Reader Demo](License_plate_reader/assets/license_plate_intro.jpg)
