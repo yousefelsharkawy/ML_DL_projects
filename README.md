@@ -30,6 +30,7 @@
 ## [Neural Style Transfer](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/Neural_Style_Transfer)
 
 ![main_image](Neural_Style_Transfer/assets/output1.png)
+
 *Generated Image by the model*
 
 - **Description**: This project implements the Neural Style Transfer algorithm from the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). The project uses a pretrained VGG19 model to extract features from the content and style images and then generates a new image that combines the content of the content image and the style of the style image.
