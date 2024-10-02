@@ -17,7 +17,7 @@
 
 - **Technologies**: Pytorch (ResNet101, LSTM, Attention Mechanism), BLEU Score, Flickr8k/Flickr30k Datasets, Spacy (Tokenizer)
 
-## [Semantic Segmentation with UNet](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/Semantic%20Segmentation%20UNet)
+## [Semantic Segmentation with UNet](https://github.com/yousefelsharkawy/ML_DL_projects/tree/main/Semantic_Segmentation_UNet)
 
 ![main image](Semantic_Segmentation_UNet\assets\main.png)
 *segmentation of a car using the UNet ARchitecture in the Repo*
