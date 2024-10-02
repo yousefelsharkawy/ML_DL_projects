@@ -84,7 +84,7 @@ We will implement and train the 124M version of the GPT2 model from scratch usin
 
 The GPT model is shown in the following figure:
 
-![GPT Architecture](assets/gpt_architecture.png)
+![GPT Architecture](assets/GPT_architecture.png)
 
 - it consists of several parts
     - the Input Embeddings
@@ -707,7 +707,7 @@ so even though this is the same prompt used above, but with trailing spaces, the
 TODO
 
 ## Future Work
-- [] Fixing the periodicity in the loss curve in the case of multi-epoch training (by shuffling the data at the beginning of each epoch)
+- [ ] Fixing the periodicity in the loss curve in the case of multi-epoch training (by shuffling the data at the beginning of each epoch)
 - [ ] Fixing the model compilation issue with the generation code and the HellaSwag evaluation code
 - [ ] Fine-tuning the model to perform specific tasks
 
